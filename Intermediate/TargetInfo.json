@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "EscapeIt",
+			"Path": "D:\\!\\Unreal Engine\\Learning\\03 - EscapeIt\\EscapeIt\\Source\\EscapeIt.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "EscapeItEditor",
+			"Path": "D:\\!\\Unreal Engine\\Learning\\03 - EscapeIt\\EscapeIt\\Source\\EscapeItEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
