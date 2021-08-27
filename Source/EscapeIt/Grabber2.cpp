@@ -27,11 +27,11 @@ void UGrabber2::BeginPlay()
 void UGrabber2::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	
-	if (PhysicsHandle->GrabbedComponent)
-	{
-		PhysicsHandle->SetTargetLocation(GetReachLineEnd());
-	}
+
+		if (PhysicsHandle->GrabbedComponent)
+		{
+			PhysicsHandle->SetTargetLocation(GetReachLineEnd());
+		}
 }
 
 void UGrabber2::Grab()
@@ -42,44 +42,47 @@ void UGrabber2::Grab()
 
 	if (ActorHit)
 	{
-		PhysicsHandle->GrabComponent(
-			ComponentToGrab,
-			NAME_None,
-			ComponentToGrab->GetOwner()->GetActorLocation(),
-			true);
-	}
+
+			PhysicsHandle->GrabComponent(
+				ComponentToGrab,
+				NAME_None,
+				ComponentToGrab->GetOwner()->GetActorLocation(),
+				true);
+		}
 }
 void UGrabber2::Release()
 {
-	PhysicsHandle->ReleaseComponent();
+		PhysicsHandle->ReleaseComponent();
 }
 void UGrabber2::PhysicsComponentCheck()	
 {
-	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
-	if (PhysicsHandle)
-	{
-		// Physics handle is found
-	}
-	else
-	{
-		// Physics handle is not found
-		UE_LOG(LogTemp, Error, TEXT("Physics handle for %s is NOT found"), *GetOwner()->GetName());
-	}
+	// unidentified pointer crash protection
+		PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
+		if (PhysicsHandle)
+		{
+			// Physics handle is found
+		}
+		else
+		{
+			// Physics handle is not found
+			UE_LOG(LogTemp, Error, TEXT("Physics handle for %s is NOT found"), *GetOwner()->GetName());
+		}
 }
 void UGrabber2::InputComponentCheck()
 {
-	InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
-	if (InputComponent)
-	{
-		// Bind the input
-		InputComponent->BindAction("Grab", IE_Pressed, this, &UGrabber2::Grab);
-		InputComponent->BindAction("Grab", IE_Released, this, &UGrabber2::Release);
-	}
-	else
-	{
-		// Input Component is not found
-		UE_LOG(LogTemp, Error, TEXT("Input Component for %s is NOT found"), *GetOwner()->GetName());
-	}
+
+		InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
+		if (InputComponent)
+		{
+			// Bind the input
+			InputComponent->BindAction("Grab", IE_Pressed, this, &UGrabber2::Grab);
+			InputComponent->BindAction("Grab", IE_Released, this, &UGrabber2::Release);
+		}
+		else
+		{
+			// Input Component is not found
+			UE_LOG(LogTemp, Error, TEXT("Input Component for %s is NOT found"), *GetOwner()->GetName());
+		}
 }
 FHitResult UGrabber2::GetFirstPhysicsBodyInReach()
 {

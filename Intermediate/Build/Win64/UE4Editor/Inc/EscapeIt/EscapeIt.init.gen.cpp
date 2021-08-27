@@ -11,18 +11,22 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeEscapeIt_init() {}
+	ESCAPEIT_API UFunction* Z_Construct_UDelegateFunction_EscapeIt_OnOpenRequest__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_EscapeIt()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_EscapeIt_OnOpenRequest__DelegateSignature,
+			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/EscapeIt",
-				nullptr,
-				0,
+				SingletonFuncArray,
+				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xF6E53969,
-				0x2AC71553,
+				0x88A10148,
+				0x9DCCE4E8,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
