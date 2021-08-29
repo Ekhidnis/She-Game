@@ -67,6 +67,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOpenDoor); \
 
 #define EscapeIt_Source_Backup_OpenDoor_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__PressurePlate() { return STRUCT_OFFSET(UOpenDoor, PressurePlate); } \
+	FORCEINLINE static uint32 __PPO__AdditionalPressurePlate() { return STRUCT_OFFSET(UOpenDoor, AdditionalPressurePlate); } \
 	FORCEINLINE static uint32 __PPO__MassToTrigger() { return STRUCT_OFFSET(UOpenDoor, MassToTrigger); }
 
 
