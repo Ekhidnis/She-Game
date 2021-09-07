@@ -11,6 +11,7 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeEscapeIt_init() {}
+	ESCAPEIT_API UFunction* Z_Construct_UDelegateFunction_EscapeIt_ButtonEvent__DelegateSignature();
 	ESCAPEIT_API UFunction* Z_Construct_UDelegateFunction_EscapeIt_DoorEvent__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_EscapeIt()
 	{
@@ -18,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeEscapeIt_init() {}
 		if (!ReturnPackage)
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_EscapeIt_ButtonEvent__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_EscapeIt_DoorEvent__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
@@ -25,8 +27,8 @@ void EmptyLinkFunctionForGeneratedCodeEscapeIt_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x23B1904D,
-				0x6D99F3E6,
+				0x0F1E249F,
+				0xE0FBCB85,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

@@ -13,11 +13,34 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeGrabber2() {}
 // Cross Module References
+	ESCAPEIT_API UFunction* Z_Construct_UDelegateFunction_EscapeIt_ButtonEvent__DelegateSignature();
+	UPackage* Z_Construct_UPackage__Script_EscapeIt();
 	ESCAPEIT_API UClass* Z_Construct_UClass_UGrabber2_NoRegister();
 	ESCAPEIT_API UClass* Z_Construct_UClass_UGrabber2();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
-	UPackage* Z_Construct_UPackage__Script_EscapeIt();
 // End Cross Module References
+	struct Z_Construct_UDelegateFunction_EscapeIt_ButtonEvent__DelegateSignature_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_EscapeIt_ButtonEvent__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Grabber2.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_EscapeIt_ButtonEvent__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_EscapeIt, nullptr, "ButtonEvent__DelegateSignature", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_EscapeIt_ButtonEvent__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_EscapeIt_ButtonEvent__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_EscapeIt_ButtonEvent__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_EscapeIt_ButtonEvent__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	void UGrabber2::StaticRegisterNativesUGrabber2()
 	{
 	}
@@ -31,6 +54,14 @@ void EmptyLinkFunctionForGeneratedCodeGrabber2() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnPress_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnPress;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnUnpress_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnUnpress;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Reach_MetaData[];
 #endif
@@ -52,6 +83,18 @@ void EmptyLinkFunctionForGeneratedCodeGrabber2() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGrabber2_Statics::NewProp_OnPress_MetaData[] = {
+		{ "ModuleRelativePath", "Grabber2.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGrabber2_Statics::NewProp_OnPress = { "OnPress", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGrabber2, OnPress), Z_Construct_UDelegateFunction_EscapeIt_ButtonEvent__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UGrabber2_Statics::NewProp_OnPress_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGrabber2_Statics::NewProp_OnPress_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGrabber2_Statics::NewProp_OnUnpress_MetaData[] = {
+		{ "ModuleRelativePath", "Grabber2.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UGrabber2_Statics::NewProp_OnUnpress = { "OnUnpress", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGrabber2, OnUnpress), Z_Construct_UDelegateFunction_EscapeIt_ButtonEvent__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UGrabber2_Statics::NewProp_OnUnpress_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGrabber2_Statics::NewProp_OnUnpress_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGrabber2_Statics::NewProp_Reach_MetaData[] = {
 		{ "Category", "Grabber2" },
 		{ "Comment", "// player's reach in cm\n" },
@@ -61,6 +104,8 @@ void EmptyLinkFunctionForGeneratedCodeGrabber2() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UGrabber2_Statics::NewProp_Reach = { "Reach", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGrabber2, Reach), METADATA_PARAMS(Z_Construct_UClass_UGrabber2_Statics::NewProp_Reach_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGrabber2_Statics::NewProp_Reach_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGrabber2_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGrabber2_Statics::NewProp_OnPress,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGrabber2_Statics::NewProp_OnUnpress,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGrabber2_Statics::NewProp_Reach,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGrabber2_Statics::StaticCppClassTypeInfo = {
@@ -90,7 +135,7 @@ void EmptyLinkFunctionForGeneratedCodeGrabber2() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGrabber2, 3841858244);
+	IMPLEMENT_CLASS(UGrabber2, 1838874490);
 	template<> ESCAPEIT_API UClass* StaticClass<UGrabber2>()
 	{
 		return UGrabber2::StaticClass();
