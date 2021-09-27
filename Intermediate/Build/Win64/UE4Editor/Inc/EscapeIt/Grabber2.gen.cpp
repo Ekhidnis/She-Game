@@ -97,12 +97,10 @@ void EmptyLinkFunctionForGeneratedCodeGrabber2() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGrabber2_Statics::NewProp_Reach_MetaData[] = {
 		{ "Category", "Grabber2" },
-		{ "Comment", "// player's reach in cm\n" },
 		{ "ModuleRelativePath", "Grabber2.h" },
-		{ "ToolTip", "player's reach in cm" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UGrabber2_Statics::NewProp_Reach = { "Reach", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGrabber2, Reach), METADATA_PARAMS(Z_Construct_UClass_UGrabber2_Statics::NewProp_Reach_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGrabber2_Statics::NewProp_Reach_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UGrabber2_Statics::NewProp_Reach = { "Reach", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGrabber2, Reach), METADATA_PARAMS(Z_Construct_UClass_UGrabber2_Statics::NewProp_Reach_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGrabber2_Statics::NewProp_Reach_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGrabber2_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGrabber2_Statics::NewProp_OnPress,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGrabber2_Statics::NewProp_OnUnpress,
@@ -135,7 +133,7 @@ void EmptyLinkFunctionForGeneratedCodeGrabber2() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGrabber2, 1838874490);
+	IMPLEMENT_CLASS(UGrabber2, 2296921383);
 	template<> ESCAPEIT_API UClass* StaticClass<UGrabber2>()
 	{
 		return UGrabber2::StaticClass();
