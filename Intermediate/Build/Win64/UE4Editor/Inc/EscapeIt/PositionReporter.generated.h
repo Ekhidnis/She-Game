@@ -39,7 +39,7 @@ public: \
 	NO_API UPositionReporter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPositionReporter) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPositionReporter); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPositionReporter); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPositionReporter); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UPositionReporter(UPositionReporter&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API UPositionReporter(const UPositionReporter&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPositionReporter); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPositionReporter); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPositionReporter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UPositionReporter)
 
 

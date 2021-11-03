@@ -39,7 +39,7 @@ public: \
 	NO_API AEscapeItGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEscapeItGameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEscapeItGameModeBase); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEscapeItGameModeBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEscapeItGameModeBase); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AEscapeItGameModeBase(AEscapeItGameModeBase&&); \
@@ -56,7 +56,7 @@ private: \
 	NO_API AEscapeItGameModeBase(const AEscapeItGameModeBase&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEscapeItGameModeBase); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEscapeItGameModeBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEscapeItGameModeBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEscapeItGameModeBase)
 
 

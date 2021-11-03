@@ -1,7 +1,7 @@
 D:\!\Unreal Engine\Learning\03 - EscapeIt\EscapeIt\Intermediate\Build\Win64\UE4Editor\Development\EscapeIt\Definitions.EscapeIt.h
 D:\!\Unreal Engine\Learning\03 - EscapeIt\EscapeIt\Source\Backup\EscapeItGameModeBase.h
-C:\Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-C:\Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-C:\Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-C:\Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\!\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\!\Unreal Engine\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\!\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\!\Unreal Engine\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 D:\!\Unreal Engine\Learning\03 - EscapeIt\EscapeIt\Intermediate\Build\Win64\UE4Editor\Inc\EscapeIt\EscapeItGameModeBase.generated.h

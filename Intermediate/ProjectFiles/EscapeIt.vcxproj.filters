@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\EscapeIt.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{412EAA64-9643-40C8-B5C8-6166B40D3C7D}</UniqueIdentifier>
+      <UniqueIdentifier>{1690997E-C2C2-4FCE-9D2E-38D49F412342}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EscapeIt.Target.cs">
       <Filter>Source</Filter>
@@ -14,9 +14,12 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{788FDC97-D562-4E31-A4C4-6FE146DE5100}</UniqueIdentifier>
+      <UniqueIdentifier>{46B6A345-6A0A-482C-86FF-DBC0845EA320}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -29,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Backup">
-      <UniqueIdentifier>{F7562776-6AAA-429D-B4F5-11E990DB96CD}</UniqueIdentifier>
+      <UniqueIdentifier>{AF36FD36-9CAF-4EEA-BD94-D3EAF73E9FC8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Backup\ButtonInteraction.cpp">
       <Filter>Source\Backup</Filter>

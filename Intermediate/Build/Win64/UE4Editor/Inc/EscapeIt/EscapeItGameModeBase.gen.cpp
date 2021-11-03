@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeEscapeItGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEscapeItGameModeBase, 2975920714);
+	IMPLEMENT_CLASS(AEscapeItGameModeBase, 1330547297);
 	template<> ESCAPEIT_API UClass* StaticClass<AEscapeItGameModeBase>()
 	{
 		return AEscapeItGameModeBase::StaticClass();

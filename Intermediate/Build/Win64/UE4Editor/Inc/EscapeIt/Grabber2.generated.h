@@ -46,7 +46,7 @@ public: \
 	NO_API UGrabber2(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGrabber2) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGrabber2); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGrabber2); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGrabber2); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UGrabber2(UGrabber2&&); \
@@ -61,7 +61,7 @@ private: \
 	NO_API UGrabber2(const UGrabber2&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UGrabber2); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGrabber2); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGrabber2); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UGrabber2)
 
 
