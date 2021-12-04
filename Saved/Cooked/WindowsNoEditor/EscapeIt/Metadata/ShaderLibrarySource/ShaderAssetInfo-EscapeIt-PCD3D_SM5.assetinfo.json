@@ -86,6 +86,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "55691DB30875E073E96ED8309D594252A7C2E2A9",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP"
+			]
+		},
+		{
 			"ShaderMapHash": "E6C881C4367A017C30CB5E1C97A435C113595511",
 			"Assets": [
 				"/SpeedTreeImporter/SpeedTree9/SpeedTreeBillboardMaster"
@@ -95,12 +101,6 @@
 			"ShaderMapHash": "A954F8FBE7BFB625D53290FA0E043AE0D60F25A7",
 			"Assets": [
 				"/SpeedTreeImporter/SpeedTree9/SpeedTreeMaster"
-			]
-		},
-		{
-			"ShaderMapHash": "55691DB30875E073E96ED8309D594252A7C2E2A9",
-			"Assets": [
-				"/Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP"
 			]
 		},
 		{
@@ -204,9 +204,9 @@
 			"ShaderMapHash": "6CB5CAC2EF8223107EA2B21906291F541215A3CF",
 			"Assets": [
 				"/Engine/VREditor/TransformGizmo/Xray",
-				"/Game/Materials/LightWood",
+				"/Game/ImportedObjects/Tip_001",
 				"/Game/ImportedObjects/Main",
-				"/Game/ImportedObjects/Tip_001"
+				"/Game/Materials/LightWood"
 			]
 		},
 		{
@@ -270,27 +270,75 @@
 			]
 		},
 		{
+			"ShaderMapHash": "CF0BEB8BCC57DDE38D1E8446752DA7B8FB048300",
+			"Assets": [
+				"/Game/ImportedObjects/Ghost_Textures/Shade"
+			]
+		},
+		{
+			"ShaderMapHash": "CEA01D1775A237B6E54A2323093BEBEF228EA8DD",
+			"Assets": [
+				"/Game/ImportedObjects/Ghost_Textures/Body"
+			]
+		},
+		{
+			"ShaderMapHash": "DD7B6150B1E81D082441F26196F4A6466594D9FD",
+			"Assets": [
+				"/Game/ImportedObjects/MedicalShkaf/MedicalShkafBase"
+			]
+		},
+		{
+			"ShaderMapHash": "D534A0778AD16CAC9B4198682CB78D118E5C3187",
+			"Assets": [
+				"/Game/Materials/DarkRed"
+			]
+		},
+		{
+			"ShaderMapHash": "8562828B16757542BCC95323C56F2FE99E85F9E3",
+			"Assets": [
+				"/Game/Materials/DarkBLue"
+			]
+		},
+		{
+			"ShaderMapHash": "A299ECB770BCFF56FE043EE6EB2B7F2D1B79D526",
+			"Assets": [
+				"/Game/Materials/DarkGreen"
+			]
+		},
+		{
+			"ShaderMapHash": "EF7229B91729B63BA7404454E42AC6D6988B6C00",
+			"Assets": [
+				"/Game/Materials/DarkMagenta"
+			]
+		},
+		{
+			"ShaderMapHash": "59CAB3129FB83384F1975369B1984531046BC88B",
+			"Assets": [
+				"/Game/Materials/DarkPurple"
+			]
+		},
+		{
 			"ShaderMapHash": "FF95A2AB15ADF4E418D4413C50BCBF13B569274A",
 			"Assets": [
-				"/Game/Materials/Wallframe_Textures",
 				"/Game/Materials/DarkWood",
-				"/Game/ImportedObjects/FloorCeiling/FloorCeiling",
+				"/Game/ImportedObjects/Wallframe_Textures/Wallframe_Mat",
 				"/Game/ImportedObjects/Vent/Vent1",
 				"/Game/ImportedObjects/Stool/Stool1",
 				"/Game/ImportedObjects/MedicalShtorka/Metal",
-				"/Game/ImportedObjects/Matress/Matress1"
+				"/Game/ImportedObjects/Matress/Matress1",
+				"/Game/ImportedObjects/FloorCeiling/FloorCeiling"
 			]
 		},
 		{
-			"ShaderMapHash": "B096409D66368D906BE0D405E42B5011BFC27A80",
+			"ShaderMapHash": "A264C8F0E2F6CF350FB75A76DDE606DCDF64CD6A",
 			"Assets": [
-				"/Game/Materials/GlowingRed"
+				"/Game/Materials/DarkYellow"
 			]
 		},
 		{
-			"ShaderMapHash": "6D09821A31ABB5FD14D820CB2A867646853C8E9D",
+			"ShaderMapHash": "8D5C9971654E22D92212E61C55D92EEA6D6F673A",
 			"Assets": [
-				"/Game/Materials/GlowingGreen"
+				"/Engine/BasicShapes/BasicShapeMaterial"
 			]
 		},
 		{
@@ -306,63 +354,21 @@
 			]
 		},
 		{
-			"ShaderMapHash": "DD7B6150B1E81D082441F26196F4A6466594D9FD",
+			"ShaderMapHash": "B096409D66368D906BE0D405E42B5011BFC27A80",
 			"Assets": [
-				"/Game/ImportedObjects/MedicalShkaf/MedicalShkafBase"
+				"/Game/Materials/GlowingRed"
 			]
 		},
 		{
-			"ShaderMapHash": "8D5C9971654E22D92212E61C55D92EEA6D6F673A",
+			"ShaderMapHash": "6D09821A31ABB5FD14D820CB2A867646853C8E9D",
 			"Assets": [
-				"/Engine/BasicShapes/BasicShapeMaterial"
+				"/Game/Materials/GlowingGreen"
 			]
 		},
 		{
-			"ShaderMapHash": "59CAB3129FB83384F1975369B1984531046BC88B",
+			"ShaderMapHash": "43771B951E2026D0427D6C5EAE87D322C9F15925",
 			"Assets": [
-				"/Game/Materials/DarkPurple"
-			]
-		},
-		{
-			"ShaderMapHash": "EF7229B91729B63BA7404454E42AC6D6988B6C00",
-			"Assets": [
-				"/Game/Materials/DarkMagenta"
-			]
-		},
-		{
-			"ShaderMapHash": "A299ECB770BCFF56FE043EE6EB2B7F2D1B79D526",
-			"Assets": [
-				"/Game/Materials/DarkGreen"
-			]
-		},
-		{
-			"ShaderMapHash": "8562828B16757542BCC95323C56F2FE99E85F9E3",
-			"Assets": [
-				"/Game/Materials/DarkBLue"
-			]
-		},
-		{
-			"ShaderMapHash": "A264C8F0E2F6CF350FB75A76DDE606DCDF64CD6A",
-			"Assets": [
-				"/Game/Materials/DarkYellow"
-			]
-		},
-		{
-			"ShaderMapHash": "D534A0778AD16CAC9B4198682CB78D118E5C3187",
-			"Assets": [
-				"/Game/Materials/DarkRed"
-			]
-		},
-		{
-			"ShaderMapHash": "CF0BEB8BCC57DDE38D1E8446752DA7B8FB048300",
-			"Assets": [
-				"/Game/ImportedObjects/Ghost_Textures/Shade"
-			]
-		},
-		{
-			"ShaderMapHash": "CEA01D1775A237B6E54A2323093BEBEF228EA8DD",
-			"Assets": [
-				"/Game/ImportedObjects/Ghost_Textures/Body"
+				"/Game/Materials/Glass"
 			]
 		},
 		{
@@ -390,9 +396,12 @@
 			]
 		},
 		{
-			"ShaderMapHash": "43771B951E2026D0427D6C5EAE87D322C9F15925",
+			"ShaderMapHash": "A4BC21BDB19D9A2A7ACA48D6578362C6FF2248BE",
 			"Assets": [
-				"/Game/Materials/Glass"
+				"/Game/Materials/Walls",
+				"/Game/Materials/BasicShapeMaterial",
+				"/Game/Materials/Top",
+				"/Game/Materials/Bottom"
 			]
 		},
 		{
@@ -402,21 +411,10 @@
 			]
 		},
 		{
-			"ShaderMapHash": "A4BC21BDB19D9A2A7ACA48D6578362C6FF2248BE",
-			"Assets": [
-				"/Game/Materials/BasicShapeMaterial",
-				"/Game/Materials/Walls",
-				"/Game/Materials/Top",
-				"/Game/Materials/Bottom"
-			]
-		},
-		{
 			"ShaderMapHash": "8FD4AB7FDC0BC3C837929677393195B7422CE32B",
 			"Assets": [
 				"/Game/ImportedObjects/ActionButtonBlock/Light_Metal",
-				"/Game/ImportedObjects/ActionButtonBlock/Dark_Metal",
-				"/Game/ImportedObjects/Light_Metal",
-				"/Game/ImportedObjects/Dark_Metal"
+				"/Game/ImportedObjects/ActionButtonBlock/Dark_Metal"
 			]
 		},
 		{
