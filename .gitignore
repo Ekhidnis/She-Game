@@ -1270,3 +1270,6 @@ Binaries/Win64/EscapeIt.exp
 Binaries/Win64/EscapeIt.exe
 Content/ImportedObjects/
 Main_BuiltData.uptnl
+Main_BuiltData.ubulk
+Main_BuiltData
+
